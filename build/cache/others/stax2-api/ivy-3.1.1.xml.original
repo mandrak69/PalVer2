@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="others"
+        module="stax2-api"
+        revision="3.1.1" />
+    
+    <publications>
+	
+        <artifact name="stax2-api-3.1.1" type="jar" />
+		
+    </publications>
+
+</ivy-module>

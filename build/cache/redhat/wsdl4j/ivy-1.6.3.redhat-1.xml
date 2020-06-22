@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="redhat" module="wsdl4j" revision="1.6.3.redhat-1" status="integration" publication="20160504110630"/>
+    
+    <publications>
+	
+        <artifact name="wsdl4j-1.6.3.redhat-1" type="jar"/>
+		
+    </publications>
+
+</ivy-module>

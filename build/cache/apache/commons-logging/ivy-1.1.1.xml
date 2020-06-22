@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="commons-logging" revision="1.1.1" status="integration" publication="20090224105948"/>
+    
+    <publications>
+	
+        <artifact name="commons-logging-1.1.1" type="jar"/>
+	
+    </publications>
+
+</ivy-module>

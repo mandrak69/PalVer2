@@ -1,0 +1,12 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="others"
+        module="cglib"
+        revision="2.2.2" />
+    
+    <publications>	
+        <artifact name="cglib-2.2.2" type="jar" />
+    </publications>
+
+</ivy-module>

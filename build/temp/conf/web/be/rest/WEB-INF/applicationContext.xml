@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	   http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/util 
+	   http://www.springframework.org/schema/util/spring-util.xsd">
+	<import resource="dao-beans.xml" />
+
+	<bean
+		class="it.csi.idf.idfapi.business.SpringApplicationContextHelper"></bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:jboss/postgresDS" />
+	</bean>
+
+	<bean id="txManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<constructor-arg name="dataSource" ref="dataSource"></constructor-arg>
+	</bean>
+	
+	<bean id="apiManagerServiceHelper" 
+     	class="it.csi.idf.idfapi.business.be.service.helper.ApiManagerServiceHelper">
+     	<constructor-arg index="0" value="https://tst-api-ent.ecosis.csi.it/api/token" />
+    </bean>
+	
+	<bean id="aaepServiceHelper" 
+     	class="it.csi.idf.idfapi.business.be.service.helper.AaepServiceHelper">
+        <constructor-arg index="0" value="http://tst-api-ent.ecosis.csi.it:80/api/aaepsv_wsfad_wsi/1.0"/>
+        <property name="apiManagerServiceHelper" ref="apiManagerServiceHelper" />
+    </bean>
+    
+    <bean id="indexServiceHelper"
+    	class="it.csi.idf.idfapi.business.be.service.helper.IndexServiceHelper">
+    	<constructor-arg index="0" value="http://tst-applogic.reteunitaria.piemonte.it/ecmenginews-exp02/services/EcmEngineManagement?wsdl"/>
+    </bean>
+
+	<!-- <bean id="backendService" class="it.csi.tstang2.tstang2web.business.impl.BackendServiceImpl"> 
+		</bean> -->
+
+	<context:component-scan base-package="it.csi.idf.idfapi.business.impl" />
+	<context:component-scan base-package="it.csi.idf.idfapi.business.be.impl" />
+	<context:component-scan base-package="it.csi.idf.idfapi.business.be.service.impl" />
+	<context:component-scan base-package="it.csi.idf.idfapi.business.be.mock" />
+
+</beans>

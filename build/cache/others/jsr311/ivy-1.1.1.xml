@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="others" module="jsr311" revision="1.1.1" status="integration" publication="20120928112545"/>
+    
+    <publications>
+	
+        <artifact name="jsr311-api-1.1.1" type="jar"/>
+		
+    </publications>
+       
+
+</ivy-module>

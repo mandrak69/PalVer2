@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="soap" revision="2.3.1" status="integration" publication="20050525092325"/>
+    
+    <publications>
+	
+        <artifact name="soap-2.3.1" type="jar"/>
+	
+    </publications>
+
+	<dependencies>
+
+		<dependency org="sun" name="mail" rev="1.2">
+			<artifact name="mail-1.2" type="jar"/>
+      	</dependency>
+		
+		<dependency org="sun" name="activation" rev="1.0.2">
+			<artifact name="activation-1.0.2" type="jar"/>
+      	</dependency>
+
+	</dependencies>
+
+</ivy-module>

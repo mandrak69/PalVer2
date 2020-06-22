@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="others" module="opengis" revision="2.2.0" status="integration" publication="20120116160753"/>
+    
+    <publications>
+	
+        <artifact name="geoapi-2.2.0" type="jar"/>
+	
+    </publications>
+
+
+</ivy-module>

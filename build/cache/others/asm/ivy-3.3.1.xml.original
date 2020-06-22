@@ -1,0 +1,12 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="others"
+        module="asm"
+        revision="3.3.1" />
+    
+    <publications>	
+        <artifact name="asm-3.3.1" type="jar" />
+    </publications>
+
+</ivy-module>

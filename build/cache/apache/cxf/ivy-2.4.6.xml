@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="cxf" revision="2.4.6" status="integration" publication="20131212170333"/>
+    
+    <publications>
+        <artifact name="cxf-2.4.6" type="jar"/>
+    </publications>
+
+
+</ivy-module>

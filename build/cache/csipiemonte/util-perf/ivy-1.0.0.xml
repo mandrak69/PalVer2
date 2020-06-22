@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="csipiemonte" module="util-perf" revision="1.0.0" status="integration" publication="20050316150444"/>
+    
+    <publications>
+	
+        <artifact name="util-perf-1.0.0" type="jar"/>
+	
+    </publications>
+
+</ivy-module>

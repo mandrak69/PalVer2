@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="redhat" module="validation-api" revision="1.0.0.GA-redhat-3" status="integration" publication="20160504110054"/>
+    
+    <publications>
+	
+        <artifact name="validation-api-1.0.0.GA-redhat-3" type="jar"/>
+		
+    </publications>
+
+</ivy-module>

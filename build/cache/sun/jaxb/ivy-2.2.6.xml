@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+	<info organisation="sun" module="jaxb" revision="2.2.6" status="integration" publication="20120928112317"/>
+    <publications>
+        <artifact name="jaxb-api-2.2.6" type="jar"/>
+	</publications>
+</ivy-module>

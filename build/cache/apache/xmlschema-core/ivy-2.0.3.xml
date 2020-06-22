@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="xmlschema-core" revision="2.0.3" status="integration" publication="20131218112002"/>
+    
+    <publications>
+        <artifact name="xmlschema-core-2.0.3" type="jar"/>
+    </publications>
+	
+</ivy-module>

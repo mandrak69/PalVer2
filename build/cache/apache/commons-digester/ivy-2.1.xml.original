@@ -1,0 +1,15 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="commons-digester"
+        revision="2.1" />
+    
+    <publications>
+	
+        <artifact name="commons-digester-2.1" type="jar" />
+
+		
+    </publications>
+
+</ivy-module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="commons-io" revision="2.2" status="integration" publication="20140117103952"/>
+    
+    <publications>
+	
+        <artifact name="commons-io-2.2" type="jar"/>
+	
+    </publications>
+
+</ivy-module>

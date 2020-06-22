@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="ejb"
+        revision="2.1" />
+    
+    <publications>
+	
+        <artifact name="ejb-2.1" type="jar" />
+	
+    </publications>
+
+</ivy-module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+    <info organisation="doqui" module="ecmengine-ws-client" revision="12.2.0" status="integration" publication="20161114141054"/>
+    <publications>
+        <artifact name="ecmengine-ws-client-12.2.0" type="jar"/>		
+    </publications>
+</ivy-module>

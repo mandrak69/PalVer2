@@ -1,0 +1,49 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="axis"
+        revision="1.4" />
+    
+    <publications>
+	
+        <artifact name="axis-1.4" type="jar" />
+				<artifact name="axis-jaxrpc-1.4" type="jar" />
+		
+    </publications>
+
+    <dependencies>
+
+    	<dependency org="apache" name="commons-discovery" rev="0.2" >
+    	   <artifact name="commons-discovery-0.2" type="jar" />
+    	</dependency>
+
+    	<dependency org="apache" name="commons-logging" rev="1.0.4" >
+    	   <artifact name="commons-logging-1.0.4" type="jar" />
+    	</dependency>
+
+    	<dependency org="apache" name="log4j" rev="1.2.8" >
+    	   <artifact name="log4j-1.2.8" type="jar" />
+    	</dependency>
+
+     	<dependency org="apache" name="xerces" rev="2.6.2" >
+    	   <artifact name="xmlParserAPIs-2.6.2" type="jar" />
+         <artifact name="xml-apis-2.6.2" type="jar" />
+         <artifact name="xercesImpl-2.6.2" type="jar" />
+         <artifact name="resolver-2.6.2" type="jar" />         
+    	</dependency>
+
+    	<dependency org="sun" name="saaj" rev="1.2" >
+    	   <artifact name="saaj-1.2" type="jar" />
+    	</dependency>
+
+    	<dependency org="sun" name="activation" rev="1.0.2" >
+    	   <artifact name="activation-1.0.2" type="jar" />
+    	</dependency>
+
+    	<dependency org="others" name="wsdl4j" rev="1.5.1" >
+    	   <artifact name="wsdl4j-1.5.1" type="jar" />
+    	</dependency>
+    </dependencies>
+
+</ivy-module>

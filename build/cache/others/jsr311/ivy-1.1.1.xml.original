@@ -1,0 +1,15 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="others"
+        module="jsr311"
+        revision="1.1.1" />
+    
+    <publications>
+	
+        <artifact name="jsr311-api-1.1.1" type="jar" />
+		
+    </publications>
+       
+
+</ivy-module>

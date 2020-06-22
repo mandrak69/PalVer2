@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="commons-httpclient"
+        revision="2.0.2" />
+    
+    <publications>
+	
+        <artifact name="commons-httpclient-2.0.2" type="jar" />
+	
+    </publications>
+
+</ivy-module>

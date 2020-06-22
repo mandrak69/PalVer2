@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="others" module="cglib" revision="2.2.2" status="integration" publication="20120919153904"/>
+    
+    <publications>	
+        <artifact name="cglib-2.2.2" type="jar"/>
+    </publications>
+
+</ivy-module>

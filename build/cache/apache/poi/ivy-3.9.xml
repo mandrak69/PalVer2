@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="poi" revision="3.9" status="integration" publication="20140714162750"/>
+    
+    <publications>
+	
+        <artifact name="poi-3.9" type="jar"/>
+        <artifact name="poi-ooxml-3.9" type="jar"/>
+        <artifact name="poi-ooxml-schemas-3.9" type="jar"/>
+        <artifact name="poi-scratchpad-3.9" type="jar"/>
+	
+    </publications>
+
+	<dependencies>
+		
+	<dependency org="apache" name="commons-logging" rev="1.1">
+			
+			<artifact name="commons-logging-1.1" type="jar"/>
+		
+	</dependency>
+
+	<dependency org="apache" name="commons-logging" rev="1.1">
+			
+			<artifact name="commons-logging-api-1.1" type="jar"/>
+		
+	</dependency>
+
+
+	</dependencies>
+
+</ivy-module>

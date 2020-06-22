@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="jboss"
+        module="jboss-jaxws"
+        revision="4.3.0" />
+    
+    <publications>
+	
+        <artifact name="jboss-jaxws-4.3.0" type="jar" />
+	
+    </publications>
+
+</ivy-module>

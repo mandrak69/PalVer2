@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="others" module="aopalliance" revision="1.0.0" status="integration" publication="20120921080422"/>
+
+    <configurations>
+		<conf name="src" description="dependencies sources"/>
+		<conf name="default" description="default configuration"/>
+    </configurations>
+    
+    <publications>
+	<artifact name="aopalliance-1.0.0" type="jar"/>
+	<artifact name="aopalliance-1.0.0-sources" type="source" conf="src" ext="jar"/>
+    </publications>
+
+</ivy-module>

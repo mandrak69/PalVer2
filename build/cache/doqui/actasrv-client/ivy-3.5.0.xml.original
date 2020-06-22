@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="doqui"
+        module="actasrv-client"
+        revision="3.5.0" />
+    
+    <publications>
+		<artifact name="actasrv-client-3.5.0" type="jar" />
+		<artifact name="actasrv-client13-3.5.0" type="jar" />
+    </publications>
+
+   
+</ivy-module>

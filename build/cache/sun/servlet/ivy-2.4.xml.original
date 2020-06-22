@@ -1,0 +1,13 @@
+<ivy-module version="1.0">
+  <info organisation="sun" 
+	  module="servlet"
+  	  revision="2.4" 
+/>
+ 
+ <publications>
+
+  <artifact name="servlet-2.4" type="jar" /> 
+
+ </publications>
+
+</ivy-module>

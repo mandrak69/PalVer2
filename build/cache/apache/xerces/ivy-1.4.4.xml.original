@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="xerces"
+        revision="1.4.4" />
+    
+    <publications>
+	
+        <artifact name="xerces-1.4.4" type="jar" />
+	
+    </publications>
+
+</ivy-module>

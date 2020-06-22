@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="csipiemonte" module="iridev2" revision="2.0.0" status="integration" publication="20050426100412"/>
+    
+    <publications>
+	
+        <artifact name="iridev2-pep-intf-2.0.0" type="jar"/>
+	
+    </publications>
+
+    <dependencies>
+
+	<dependency org="csipiemonte" name="csi" rev="1.2.2">
+		<artifact name="csi-apachesoap-1.2.2" type="jar"/>
+		<artifact name="csi-core-1.2.2" type="jar"/>
+		<artifact name="csi-ejb-1.2.2" type="jar"/>
+		<artifact name="csi-rmi-1.2.2" type="jar"/>
+		<artifact name="csi-stadapter-1.2.2" type="jar"/>
+		<artifact name="csi-tools-1.2.2" type="jar"/>
+      </dependency>
+
+    </dependencies>
+
+
+</ivy-module>

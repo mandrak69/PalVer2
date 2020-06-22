@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="jndi"
+        revision="1.2.1" />
+    
+    <publications>
+	
+        <artifact name="jndi-1.2.1" type="jar" />
+	
+    </publications>
+
+</ivy-module>

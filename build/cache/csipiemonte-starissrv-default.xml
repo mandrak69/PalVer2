@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="csipiemonte"
+		module="starissrv"
+		revision="working@DESKTOP-P4NHBML"
+		conf="default"
+		confs="default"
+		date="20200622102859"/>
+	<dependencies>
+		<module organisation="google" name="guava/12.0">
+			<revision name="lib" status="release" pubdate="20200622102457" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="54">
+				<metadata-artifact status="no" details="" size="418" time="0" location="C:\git\PalVer2\build\cache\google\guava\12.0\ivy-lib.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\google\guava\12.0\ivys\ivy-lib.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="lib" rev-constraint-default="lib" rev-constraint-dynamic="lib" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="guava-12.0" type="jar" ext="jar" status="no" details="" size="1795936" time="0" location="C:\git\PalVer2\build\cache\google\guava\12.0\jars\guava-12.0-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/google/guava/12.0/lib/guava-12.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-beanutils/1.9.1">
+			<revision name="lib" status="release" pubdate="20200622102456" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="53">
+				<metadata-artifact status="no" details="" size="444" time="0" location="C:\git\PalVer2\build\cache\apache\commons-beanutils\1.9.1\ivy-lib.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-beanutils\1.9.1\ivys\ivy-lib.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="lib" rev-constraint-default="lib" rev-constraint-dynamic="lib" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-beanutils-1.9.1" type="jar" ext="jar" status="no" details="" size="232563" time="0" location="C:\git\PalVer2\build\cache\apache\commons-beanutils\1.9.1\jars\commons-beanutils-1.9.1-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-beanutils/1.9.1/lib/commons-beanutils-1.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="itext/4.2.0">
+			<revision name="lib" status="release" pubdate="20200622102456" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="52">
+				<metadata-artifact status="no" details="" size="420" time="0" location="C:\git\PalVer2\build\cache\others\itext\4.2.0\ivy-lib.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\itext\4.2.0\ivys\ivy-lib.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="lib" rev-constraint-default="lib" rev-constraint-dynamic="lib" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="itext-4.2.0" type="jar" ext="jar" status="no" details="" size="2243043" time="0" location="C:\git\PalVer2\build\cache\others\itext\4.2.0\jars\itext-4.2.0-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/itext/4.2.0/lib/itext-4.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-digester">
+			<revision name="2.1" status="integration" pubdate="20160503155104" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="51">
+				<metadata-artifact status="no" details="" size="318" time="0" location="C:\git\PalVer2\build\cache\apache\commons-digester\ivy-2.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-digester\ivy-2.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-digester/2.1/ivy-commons-digester.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-digester-2.1" type="jar" ext="jar" status="no" details="" size="196768" time="0" location="C:\git\PalVer2\build\cache\apache\commons-digester\jars\commons-digester-2.1-2.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-digester/2.1/lib/commons-digester-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-collections">
+			<revision name="3.2.2" status="integration" pubdate="20160502155926" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="50">
+				<metadata-artifact status="no" details="" size="328" time="0" location="C:\git\PalVer2\build\cache\apache\commons-collections\ivy-3.2.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-collections\ivy-3.2.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-collections/3.2.2/ivy-commons-collections.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-collections-3.2.2" type="jar" ext="jar" status="no" details="" size="588337" time="0" location="C:\git\PalVer2\build\cache\apache\commons-collections\jars\commons-collections-3.2.2-3.2.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-collections/3.2.2/lib/commons-collections-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jaspersoft" name="jasperreports/6.2.1">
+			<revision name="lib" status="release" pubdate="20200622102455" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="49">
+				<metadata-artifact status="no" details="" size="524" time="0" location="C:\git\PalVer2\build\cache\jaspersoft\jasperreports\6.2.1\ivy-lib.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\jaspersoft\jasperreports\6.2.1\ivys\ivy-lib.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="lib" rev-constraint-default="lib" rev-constraint-dynamic="lib" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jasperreports-6.2.1" type="jar" ext="jar" status="no" details="" size="5270818" time="0" location="C:\git\PalVer2\build\cache\jaspersoft\jasperreports\6.2.1\jars\jasperreports-6.2.1-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/jaspersoft/jasperreports/6.2.1/lib/jasperreports-6.2.1.jar"/>
+					</artifact>
+					<artifact name="jasperreports-fonts-6.2.1" type="jar" ext="jar" status="no" details="" size="2478097" time="0" location="C:\git\PalVer2\build\cache\jaspersoft\jasperreports\6.2.1\jars\jasperreports-fonts-6.2.1-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/jaspersoft/jasperreports/6.2.1/lib/jasperreports-fonts-6.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat" name="wsdl4j">
+			<revision name="1.6.3.redhat-1" status="integration" pubdate="20160504110630" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="48">
+				<metadata-artifact status="no" details="" size="319" time="0" location="C:\git\PalVer2\build\cache\redhat\wsdl4j\ivy-1.6.3.redhat-1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\wsdl4j\ivy-1.6.3.redhat-1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/redhat/wsdl4j/1.6.3.redhat-1/ivy-wsdl4j.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.6.3.redhat-1" rev-constraint-default="1.6.3.redhat-1" rev-constraint-dynamic="1.6.3.redhat-1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="wsdl4j-1.6.3.redhat-1" type="jar" ext="jar" status="no" details="" size="218139" time="0" location="C:\git\PalVer2\build\cache\redhat\wsdl4j\jars\wsdl4j-1.6.3.redhat-1-1.6.3.redhat-1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/wsdl4j/1.6.3.redhat-1/lib/wsdl4j-1.6.3.redhat-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-io">
+			<revision name="2.2" status="integration" pubdate="20140117103952" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="46">
+				<metadata-artifact status="no" details="" size="304" time="0" location="C:\git\PalVer2\build\cache\apache\commons-io\ivy-2.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-io\ivy-2.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-io/2.2/ivy-commons-io.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-io-2.2" type="jar" ext="jar" status="no" details="" size="173587" time="0" location="C:\git\PalVer2\build\cache\apache\commons-io\jars\commons-io-2.2-2.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-io/2.2/lib/commons-io-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="doqui" name="ecmengine-common">
+			<revision name="12.2.0" status="integration" pubdate="20161114140756" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="45">
+				<metadata-artifact status="no" details="" size="311" time="0" location="C:\git\PalVer2\build\cache\doqui\ecmengine-common\ivy-12.2.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\doqui\ecmengine-common\ivy-12.2.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/doqui/ecmengine-common/12.2.0/ivy-ecmengine-common.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="12.2.0" rev-constraint-default="12.2.0" rev-constraint-dynamic="12.2.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="ecmengine-common-12.2.0" type="jar" ext="jar" status="no" details="" size="63334" time="0" location="C:\git\PalVer2\build\cache\doqui\ecmengine-common\jars\ecmengine-common-12.2.0-12.2.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/doqui/ecmengine-common/12.2.0/lib/ecmengine-common-12.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="doqui" name="ecmengine-ws-client">
+			<revision name="12.2.0" status="integration" pubdate="20161114141054" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="44">
+				<metadata-artifact status="no" details="" size="318" time="0" location="C:\git\PalVer2\build\cache\doqui\ecmengine-ws-client\ivy-12.2.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\doqui\ecmengine-ws-client\ivy-12.2.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/doqui/ecmengine-ws-client/12.2.0/ivy-ecmengine-ws-client.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="12.2.0" rev-constraint-default="12.2.0" rev-constraint-dynamic="12.2.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="ecmengine-ws-client-12.2.0" type="jar" ext="jar" status="no" details="" size="309849" time="0" location="C:\git\PalVer2\build\cache\doqui\ecmengine-ws-client\jars\ecmengine-ws-client-12.2.0-12.2.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/doqui/ecmengine-ws-client/12.2.0/lib/ecmengine-ws-client-12.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="xmlschema-core">
+			<revision name="2.0.3" status="integration" pubdate="20131218112002" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="43">
+				<metadata-artifact status="no" details="" size="313" time="0" location="C:\git\PalVer2\build\cache\apache\xmlschema-core\ivy-2.0.3.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\xmlschema-core\ivy-2.0.3.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/xmlschema-core/2.0.3/ivy-xmlschema-core.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="xmlschema-core-2.0.3" type="jar" ext="jar" status="no" details="" size="162818" time="0" location="C:\git\PalVer2\build\cache\apache\xmlschema-core\jars\xmlschema-core-2.0.3-2.0.3.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/xmlschema-core/2.0.3/lib/xmlschema-core-2.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="stax2-api">
+			<revision name="3.1.1" status="integration" pubdate="20120928113006" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="42">
+				<metadata-artifact status="no" details="" size="307" time="0" location="C:\git\PalVer2\build\cache\others\stax2-api\ivy-3.1.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\stax2-api\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/stax2-api/3.1.1/ivy-stax2-api.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="stax2-api-3.1.1" type="jar" ext="jar" status="no" details="" size="182112" time="0" location="C:\git\PalVer2\build\cache\others\stax2-api\jars\stax2-api-3.1.1-3.1.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/stax2-api/3.1.1/lib/stax2-api-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="neethi">
+			<revision name="3.0.2" status="integration" pubdate="20121106172345" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="41">
+				<metadata-artifact status="no" details="" size="300" time="0" location="C:\git\PalVer2\build\cache\apache\neethi\ivy-3.0.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\neethi\ivy-3.0.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/neethi/3.0.2/ivy-neethi.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="neethi-3.0.2" type="jar" ext="jar" status="no" details="" size="71320" time="0" location="C:\git\PalVer2\build\cache\apache\neethi\jars\neethi-3.0.2-3.0.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/neethi/3.0.2/lib/neethi-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="cxf">
+			<revision name="2.4.6" status="integration" pubdate="20131212170333" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="40">
+				<metadata-artifact status="no" details="" size="291" time="0" location="C:\git\PalVer2\build\cache\apache\cxf\ivy-2.4.6.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\cxf\ivy-2.4.6.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/cxf/2.4.6/ivy-cxf.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.4.6" rev-constraint-default="2.4.6" rev-constraint-dynamic="2.4.6" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="cxf-2.4.6" type="jar" ext="jar" status="no" details="" size="5715737" time="0" location="C:\git\PalVer2\build\cache\apache\cxf\jars\cxf-2.4.6-2.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/cxf/2.4.6/lib/cxf-2.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jaxb">
+			<revision name="2.2.6" status="integration" pubdate="20120928112317" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="39">
+				<metadata-artifact status="no" details="" size="280" time="0" location="C:\git\PalVer2\build\cache\sun\jaxb\ivy-2.2.6.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\jaxb\ivy-2.2.6.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/jaxb/2.2.6/ivy-jaxb.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jaxb-api-2.2.6" type="jar" ext="jar" status="no" details="" size="99570" time="0" location="C:\git\PalVer2\build\cache\sun\jaxb\jars\jaxb-api-2.2.6-2.2.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/jaxb/2.2.6/lib/jaxb-api-2.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jboss" name="jboss-jaxws">
+			<revision name="4.3.0" status="integration" pubdate="20111122153951" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="38">
+				<metadata-artifact status="no" details="" size="309" time="0" location="C:\git\PalVer2\build\cache\jboss\jboss-jaxws\ivy-4.3.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\jboss\jboss-jaxws\ivy-4.3.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/jboss/jboss-jaxws/4.3.0/ivy-jboss-jaxws.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jboss-jaxws-4.3.0" type="jar" ext="jar" status="no" details="" size="63828" time="0" location="C:\git\PalVer2\build\cache\jboss\jboss-jaxws\jars\jboss-jaxws-4.3.0-4.3.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/jboss/jboss-jaxws/4.3.0/lib/jboss-jaxws-4.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="doqui" name="actasrv-client">
+			<revision name="3.5.0" status="integration" pubdate="20170213122535" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="37">
+				<metadata-artifact status="no" details="" size="364" time="0" location="C:\git\PalVer2\build\cache\doqui\actasrv-client\ivy-3.5.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\doqui\actasrv-client\ivy-3.5.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/doqui/actasrv-client/3.5.0/ivy-actasrv-client.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="actasrv-client-3.5.0" type="jar" ext="jar" status="no" details="" size="652846" time="0" location="C:\git\PalVer2\build\cache\doqui\actasrv-client\jars\actasrv-client-3.5.0-3.5.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/doqui/actasrv-client/3.5.0/lib/actasrv-client-3.5.0.jar"/>
+					</artifact>
+					<artifact name="actasrv-client13-3.5.0" type="jar" ext="jar" status="no" details="" size="312819" time="0" location="C:\git\PalVer2\build\cache\doqui\actasrv-client\jars\actasrv-client13-3.5.0-3.5.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/doqui/actasrv-client/3.5.0/lib/actasrv-client13-3.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="axiscsi">
+			<revision name="1.0.0" status="integration" pubdate="20131114170246" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="35">
+				<metadata-artifact status="no" details="" size="1585" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\axiscsi\ivy-1.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\axiscsi\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/axiscsi/1.0.0/ivy-axiscsi.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="axis-1.4.csi-1.0.0" type="jar" ext="jar" status="no" details="" size="1599682" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\axiscsi\jars\axis-1.4.csi-1.0.0-1.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/axiscsi/1.0.0/lib/axis-1.4.csi-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="axis">
+			<revision name="1.4" status="integration" pubdate="20071113142436" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="36">
+				<metadata-artifact status="no" details="" size="1488" time="0" location="C:\git\PalVer2\build\cache\apache\axis\ivy-1.4.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\axis\ivy-1.4.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/axis/1.4/ivy-axis.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="axis-jaxrpc-1.4" type="jar" ext="jar" status="no" details="" size="31191" time="0" location="C:\git\PalVer2\build\cache\apache\axis\jars\axis-jaxrpc-1.4-1.4.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/axis/1.4/lib/axis-jaxrpc-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-discovery">
+			<revision name="0.2" status="integration" pubdate="20050316150444" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="47">
+				<metadata-artifact status="no" details="" size="318" time="0" location="C:\git\PalVer2\build\cache\apache\commons-discovery\ivy-0.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-discovery\ivy-0.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-discovery/0.2/ivy-commons-discovery.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-discovery-0.2" type="jar" ext="jar" status="no" details="" size="71442" time="0" location="C:\git\PalVer2\build\cache\apache\commons-discovery\jars\commons-discovery-0.2-0.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-discovery/0.2/lib/commons-discovery-0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="tokenretry">
+			<revision name="2.0.0" status="integration" pubdate="20150413170754" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="34">
+				<metadata-artifact status="no" details="" size="1075" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\tokenretry\ivy-2.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\tokenretry\ivy-2.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/tokenretry/2.0.0/ivy-tokenretry.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="token-retry-plugin-axis1.4-2.0.0" type="jar" ext="jar" status="no" details="" size="15345" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\tokenretry\jars\token-retry-plugin-axis1.4-2.0.0-2.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/tokenretry/2.0.0/lib/token-retry-plugin-axis1.4-2.0.0.jar"/>
+					</artifact>
+					<artifact name="token-retry-plugin-cxf-2.0.0" type="jar" ext="jar" status="no" details="" size="2729" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\tokenretry\jars\token-retry-plugin-cxf-2.0.0-2.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/tokenretry/2.0.0/lib/token-retry-plugin-cxf-2.0.0.jar"/>
+					</artifact>
+					<artifact name="token-retry-2.0.0" type="jar" ext="jar" status="no" details="" size="15000" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\tokenretry\jars\token-retry-2.0.0-2.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/tokenretry/2.0.0/lib/token-retry-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat/resteasy-multipart-provider" name="3.7.0.Final">
+			<revision name="lib" status="release" pubdate="20200622102450" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="33">
+				<metadata-artifact status="no" details="" size="476" time="0" location="C:\git\PalVer2\build\cache\redhat\resteasy-multipart-provider\3.7.0.Final\ivy-lib.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\resteasy-multipart-provider\3.7.0.Final\ivys\ivy-lib.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="lib" rev-constraint-default="lib" rev-constraint-dynamic="lib" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="resteasy-multipart-provider-3.7.0.Final" type="jar" ext="jar" status="no" details="" size="88490" time="0" location="C:\git\PalVer2\build\cache\redhat\resteasy-multipart-provider\3.7.0.Final\jars\resteasy-multipart-provider-3.7.0.Final-lib.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/resteasy-multipart-provider/3.7.0.Final/lib/resteasy-multipart-provider-3.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="opengis">
+			<revision name="2.2.0" status="integration" pubdate="20120116160753" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="32">
+				<metadata-artifact status="no" details="" size="302" time="0" location="C:\git\PalVer2\build\cache\others\opengis\ivy-2.2.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\opengis\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/opengis/2.2.0/ivy-opengis.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="geoapi-2.2.0" type="jar" ext="jar" status="no" details="" size="394257" time="0" location="C:\git\PalVer2\build\cache\others\opengis\jars\geoapi-2.2.0-2.2.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/opengis/2.2.0/lib/geoapi-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="swagger-jaxrs">
+			<revision name="1.5.18" status="release" pubdate="20200622102449" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="31">
+				<metadata-artifact status="no" details="" size="434" time="0" location="C:\git\PalVer2\build\cache\others\swagger-jaxrs\ivy-1.5.18.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\swagger-jaxrs\ivys\ivy-1.5.18.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.5.18" rev-constraint-default="1.5.18" rev-constraint-dynamic="1.5.18" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="swagger-jaxrs-1.5.18" type="jar" ext="jar" status="no" details="" size="69416" time="0" location="C:\git\PalVer2\build\cache\others\swagger-jaxrs\jars\swagger-jaxrs-1.5.18-1.5.18.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/swagger-jaxrs/1.5.18/lib/swagger-jaxrs-1.5.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="swagger-annotations">
+			<revision name="1.5.18" status="release" pubdate="20200622102449" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="30">
+				<metadata-artifact status="no" details="" size="446" time="0" location="C:\git\PalVer2\build\cache\others\swagger-annotations\ivy-1.5.18.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\swagger-annotations\ivys\ivy-1.5.18.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.5.18" rev-constraint-default="1.5.18" rev-constraint-dynamic="1.5.18" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="swagger-annotations-1.5.18" type="jar" ext="jar" status="no" details="" size="20751" time="0" location="C:\git\PalVer2\build\cache\others\swagger-annotations\jars\swagger-annotations-1.5.18-1.5.18.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/swagger-annotations/1.5.18/lib/swagger-annotations-1.5.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat" name="validation-api">
+			<revision name="1.0.0.GA-redhat-3" status="integration" pubdate="20160504110054" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="29">
+				<metadata-artifact status="no" details="" size="341" time="0" location="C:\git\PalVer2\build\cache\redhat\validation-api\ivy-1.0.0.GA-redhat-3.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\validation-api\ivy-1.0.0.GA-redhat-3.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/redhat/validation-api/1.0.0.GA-redhat-3/ivy-validation-api.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.0.0.GA-redhat-3" rev-constraint-default="1.0.0.GA-redhat-3" rev-constraint-dynamic="1.0.0.GA-redhat-3" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="validation-api-1.0.0.GA-redhat-3" type="jar" ext="jar" status="no" details="" size="48860" time="0" location="C:\git\PalVer2\build\cache\redhat\validation-api\jars\validation-api-1.0.0.GA-redhat-3-1.0.0.GA-redhat-3.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/validation-api/1.0.0.GA-redhat-3/lib/validation-api-1.0.0.GA-redhat-3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat" name="jackson-core-asl">
+			<revision name="1.9.9.redhat-4" status="release" pubdate="20200622102449" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="28">
+				<metadata-artifact status="no" details="" size="456" time="0" location="C:\git\PalVer2\build\cache\redhat\jackson-core-asl\ivy-1.9.9.redhat-4.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\jackson-core-asl\ivys\ivy-1.9.9.redhat-4.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.9.9.redhat-4" rev-constraint-default="1.9.9.redhat-4" rev-constraint-dynamic="1.9.9.redhat-4" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jackson-core-asl-1.9.9.redhat-4" type="jar" ext="jar" status="no" details="" size="232141" time="0" location="C:\git\PalVer2\build\cache\redhat\jackson-core-asl\jars\jackson-core-asl-1.9.9.redhat-4-1.9.9.redhat-4.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/jackson-core-asl/1.9.9.redhat-4/lib/jackson-core-asl-1.9.9.redhat-4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat" name="jackson-mapper-asl">
+			<revision name="1.9.9.redhat-4" status="release" pubdate="20200622102448" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="true" conf="default, *" position="27">
+				<metadata-artifact status="no" details="" size="460" time="0" location="C:\git\PalVer2\build\cache\redhat\jackson-mapper-asl\ivy-1.9.9.redhat-4.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\jackson-mapper-asl\ivys\ivy-1.9.9.redhat-4.xml" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.9.9.redhat-4" rev-constraint-default="1.9.9.redhat-4" rev-constraint-dynamic="1.9.9.redhat-4" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl-1.9.9.redhat-4" type="jar" ext="jar" status="no" details="" size="780341" time="0" location="C:\git\PalVer2\build\cache\redhat\jackson-mapper-asl\jars\jackson-mapper-asl-1.9.9.redhat-4-1.9.9.redhat-4.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/jackson-mapper-asl/1.9.9.redhat-4/lib/jackson-mapper-asl-1.9.9.redhat-4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="redhat" name="resteasy-jaxrs">
+			<revision name="2.3.10.Final-redhat-1" status="integration" pubdate="20161006115424" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="26">
+				<metadata-artifact status="no" details="" size="349" time="0" location="C:\git\PalVer2\build\cache\redhat\resteasy-jaxrs\ivy-2.3.10.Final-redhat-1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\redhat\resteasy-jaxrs\ivy-2.3.10.Final-redhat-1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/redhat/resteasy-jaxrs/2.3.10.Final-redhat-1/ivy-resteasy-jaxrs.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.3.10.Final-redhat-1" rev-constraint-default="2.3.10.Final-redhat-1" rev-constraint-dynamic="2.3.10.Final-redhat-1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="resteasy-jaxrs-2.3.10.Final-redhat-1" type="jar" ext="jar" status="no" details="" size="660933" time="0" location="C:\git\PalVer2\build\cache\redhat\resteasy-jaxrs\jars\resteasy-jaxrs-2.3.10.Final-redhat-1-2.3.10.Final-redhat-1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/redhat/resteasy-jaxrs/2.3.10.Final-redhat-1/lib/resteasy-jaxrs-2.3.10.Final-redhat-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="iridev2">
+			<revision name="2.0.0" status="integration" pubdate="20050426100412" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="25">
+				<metadata-artifact status="no" details="" size="726" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\iridev2\ivy-2.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\iridev2\ivy-2.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/iridev2/2.0.0/ivy-iridev2.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="iridev2-pep-intf-2.0.0" type="jar" ext="jar" status="no" details="" size="28467" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\iridev2\jars\iridev2-pep-intf-2.0.0-2.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/iridev2/2.0.0/lib/iridev2-pep-intf-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="servlet-api">
+			<revision name="2.5" status="integration" pubdate="20141028115324" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="24">
+				<metadata-artifact status="no" details="" size="308" time="0" location="C:\git\PalVer2\build\cache\sun\servlet-api\ivy-2.5.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\servlet-api\ivy-2.5.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/servlet-api/2.5/ivy-servlet-api.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="servlet-api-2.5" type="jar" ext="jar" status="no" details="" size="105112" time="0" location="C:\git\PalVer2\build\cache\sun\servlet-api\jars\servlet-api-2.5-2.5.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/servlet-api/2.5/lib/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="jsr311">
+			<revision name="1.1.1" status="integration" pubdate="20120928112545" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="23">
+				<metadata-artifact status="no" details="" size="313" time="0" location="C:\git\PalVer2\build\cache\others\jsr311\ivy-1.1.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\jsr311\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/jsr311/1.1.1/ivy-jsr311.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jsr311-api-1.1.1" type="jar" ext="jar" status="no" details="" size="46367" time="0" location="C:\git\PalVer2\build\cache\others\jsr311\jars\jsr311-api-1.1.1-1.1.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/jsr311/1.1.1/lib/jsr311-api-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="jettison">
+			<revision name="1.3.1" status="integration" pubdate="20120928112448" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="22">
+				<metadata-artifact status="no" details="" size="309" time="0" location="C:\git\PalVer2\build\cache\others\jettison\ivy-1.3.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\jettison\ivy-1.3.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/jettison/1.3.1/ivy-jettison.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="jettison-1.3.1" type="jar" ext="jar" status="no" details="" size="75963" time="0" location="C:\git\PalVer2\build\cache\others\jettison\jars\jettison-1.3.1-1.3.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/jettison/1.3.1/lib/jettison-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="spring">
+			<revision name="3.1.1.RELEASE" status="integration" pubdate="20150601093402" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, test, *" position="21">
+				<metadata-artifact status="no" details="" size="1357" time="0" location="C:\git\PalVer2\build\cache\others\spring\ivy-3.1.1.RELEASE.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\spring\ivy-3.1.1.RELEASE.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/ivy-spring.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.1.1.RELEASE" rev-constraint-default="3.1.1.RELEASE" rev-constraint-dynamic="3.1.1.RELEASE" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="spring-context-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="831068" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-context-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-context-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-tx-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="246719" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-tx-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-tx-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-beans-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="589824" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-beans-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-beans-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-core-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="449324" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-core-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-core-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-expression-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="176311" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-expression-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-expression-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-jdbc-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="404732" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-jdbc-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-jdbc-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-asm-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="53081" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-asm-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-asm-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-web-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="544291" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-web-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-web-3.1.1.RELEASE.jar"/>
+					</artifact>
+					<artifact name="spring-aop-3.1.1.RELEASE" type="jar" ext="jar" status="no" details="" size="331471" time="0" location="C:\git\PalVer2\build\cache\others\spring\jars\spring-aop-3.1.1.RELEASE-3.1.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/spring/3.1.1.RELEASE/lib/spring-aop-3.1.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="cglib">
+			<revision name="2.2.2" status="integration" pubdate="20120919153904" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="20">
+				<metadata-artifact status="no" details="" size="295" time="0" location="C:\git\PalVer2\build\cache\others\cglib\ivy-2.2.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\cglib\ivy-2.2.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/cglib/2.2.2/ivy-cglib.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="cglib-2.2.2" type="jar" ext="jar" status="no" details="" size="287192" time="0" location="C:\git\PalVer2\build\cache\others\cglib\jars\cglib-2.2.2-2.2.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/cglib/2.2.2/lib/cglib-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="asm">
+			<revision name="3.3.1" status="integration" pubdate="20120919153754" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="19">
+				<metadata-artifact status="no" details="" size="291" time="0" location="C:\git\PalVer2\build\cache\others\asm\ivy-3.3.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\asm\ivy-3.3.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/asm/3.3.1/ivy-asm.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="asm-3.3.1" type="jar" ext="jar" status="no" details="" size="43581" time="0" location="C:\git\PalVer2\build\cache\others\asm\jars\asm-3.3.1-3.3.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/asm/3.3.1/lib/asm-3.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="others" name="aopalliance">
+			<revision name="1.0.0" status="integration" pubdate="20120921080422" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, src, *" position="18">
+				<metadata-artifact status="no" details="" size="541" time="0" location="C:\git\PalVer2\build\cache\others\aopalliance\ivy-1.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\others\aopalliance\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/others/aopalliance/1.0.0/ivy-aopalliance.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="aopalliance-1.0.0" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="C:\git\PalVer2\build\cache\others\aopalliance\jars\aopalliance-1.0.0-1.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/others/aopalliance/1.0.0/lib/aopalliance-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-lang3">
+			<revision name="3.1" status="integration" pubdate="20130109161547" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="17">
+				<metadata-artifact status="no" details="" size="310" time="0" location="C:\git\PalVer2\build\cache\apache\commons-lang3\ivy-3.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-lang3\ivy-3.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-lang3/3.1/ivy-commons-lang3.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-lang3-3.1" type="jar" ext="jar" status="no" details="" size="315805" time="0" location="C:\git\PalVer2\build\cache\apache\commons-lang3\jars\commons-lang3-3.1-3.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-lang3/3.1/lib/commons-lang3-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-logging">
+			<revision name="1.1.1" status="integration" pubdate="20090224105948" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="16">
+				<metadata-artifact status="no" details="" size="318" time="0" location="C:\git\PalVer2\build\cache\apache\commons-logging\ivy-1.1.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-logging\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-logging/1.1.1/ivy-commons-logging.xml"/>
+				<caller organisation="apache" name="poi" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.9"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.4.6"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="commons-logging-1.1.1" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="C:\git\PalVer2\build\cache\apache\commons-logging\jars\commons-logging-1.1.1-1.1.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-logging/1.1.1/lib/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="*" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="apache" name="poi" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.9"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="*" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.4.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="util-perf">
+			<revision name="1.0.0" status="integration" pubdate="20050316150444" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="15">
+				<metadata-artifact status="no" details="" size="311" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\util-perf\ivy-1.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\util-perf\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/util-perf/1.0.0/ivy-util-perf.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="util-perf-1.0.0" type="jar" ext="jar" status="no" details="" size="2441" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\util-perf\jars\util-perf-1.0.0-1.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/util-perf/1.0.0/lib/util-perf-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="poi">
+			<revision name="3.9" status="integration" pubdate="20140714162750" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="14">
+				<metadata-artifact status="no" details="" size="773" time="0" location="C:\git\PalVer2\build\cache\apache\poi\ivy-3.9.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\poi\ivy-3.9.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/poi/3.9/ivy-poi.xml"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas-3.9" type="jar" ext="jar" status="no" details="" size="4802621" time="0" location="C:\git\PalVer2\build\cache\apache\poi\jars\poi-ooxml-schemas-3.9-3.9.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/poi/3.9/lib/poi-ooxml-schemas-3.9.jar"/>
+					</artifact>
+					<artifact name="poi-3.9" type="jar" ext="jar" status="no" details="" size="1869113" time="0" location="C:\git\PalVer2\build\cache\apache\poi\jars\poi-3.9-3.9.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/poi/3.9/lib/poi-3.9.jar"/>
+					</artifact>
+					<artifact name="poi-ooxml-3.9" type="jar" ext="jar" status="no" details="" size="936648" time="0" location="C:\git\PalVer2\build\cache\apache\poi\jars\poi-ooxml-3.9-3.9.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/poi/3.9/lib/poi-ooxml-3.9.jar"/>
+					</artifact>
+					<artifact name="poi-scratchpad-3.9" type="jar" ext="jar" status="no" details="" size="1226511" time="0" location="C:\git\PalVer2\build\cache\apache\poi\jars\poi-scratchpad-3.9-3.9.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/poi/3.9/lib/poi-scratchpad-3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="csi">
+			<revision name="1.4.6" status="integration" pubdate="20091030152614" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="0">
+				<metadata-artifact status="no" details="" size="2150" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\ivy-1.4.6.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\csi\ivy-1.4.6.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/ivy-csi.xml"/>
+				<caller organisation="csipiemonte" name="iridev2" conf="default" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="2.0.0"/>
+				<caller organisation="csipiemonte" name="starissrv" conf="default" rev="1.4.6" rev-constraint-default="1.4.6" rev-constraint-dynamic="1.4.6" callerrev="working@DESKTOP-P4NHBML"/>
+				<artifacts>
+					<artifact name="csi-ejb-1.4.6" type="jar" ext="jar" status="no" details="" size="57785" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\jars\csi-ejb-1.4.6-1.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/lib/csi-ejb-1.4.6.jar"/>
+					</artifact>
+					<artifact name="csi-rmi-1.4.6" type="jar" ext="jar" status="no" details="" size="21754" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\jars\csi-rmi-1.4.6-1.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/lib/csi-rmi-1.4.6.jar"/>
+					</artifact>
+					<artifact name="csi-stadapter-1.4.6" type="jar" ext="jar" status="no" details="" size="21671" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\jars\csi-stadapter-1.4.6-1.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/lib/csi-stadapter-1.4.6.jar"/>
+					</artifact>
+					<artifact name="csi-core-1.4.6" type="jar" ext="jar" status="no" details="" size="100212" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\jars\csi-core-1.4.6-1.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/lib/csi-core-1.4.6.jar"/>
+					</artifact>
+					<artifact name="csi-apachesoap-1.4.6" type="jar" ext="jar" status="no" details="" size="36199" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\csi\jars\csi-apachesoap-1.4.6-1.4.6.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/csi/1.4.6/lib/csi-apachesoap-1.4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, *" position="-1">
+				<evicted-by rev="1.4.6"/>
+				<caller organisation="csipiemonte" name="iridev2" conf="default" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="2.0.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="csipiemonte" name="weblogic-client">
+			<revision name="3.0.0" status="integration" pubdate="20080428152220" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="13">
+				<metadata-artifact status="no" details="" size="323" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\weblogic-client\ivy-3.0.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\csipiemonte\weblogic-client\ivy-3.0.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/csipiemonte/weblogic-client/3.0.0/ivy-weblogic-client.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="weblogic-client-3.0.0" type="jar" ext="jar" status="no" details="" size="4414241" time="0" location="C:\git\PalVer2\build\cache\csipiemonte\weblogic-client\jars\weblogic-client-3.0.0-3.0.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/csipiemonte/weblogic-client/3.0.0/lib/weblogic-client-3.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-httpclient">
+			<revision name="2.0.2" status="integration" pubdate="20050316150444" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="12">
+				<metadata-artifact status="no" details="" size="324" time="0" location="C:\git\PalVer2\build\cache\apache\commons-httpclient\ivy-2.0.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\commons-httpclient\ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/commons-httpclient/2.0.2/ivy-commons-httpclient.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="commons-httpclient-2.0.2" type="jar" ext="jar" status="no" details="" size="225375" time="0" location="C:\git\PalVer2\build\cache\apache\commons-httpclient\jars\commons-httpclient-2.0.2-2.0.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/commons-httpclient/2.0.2/lib/commons-httpclient-2.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="log4j">
+			<revision name="1.2.5" status="integration" pubdate="20050316150444" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="11">
+				<metadata-artifact status="no" details="" size="298" time="0" location="C:\git\PalVer2\build\cache\apache\log4j\ivy-1.2.5.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\log4j\ivy-1.2.5.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/log4j/1.2.5/ivy-log4j.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="log4j-1.2.5" type="jar" ext="jar" status="no" details="" size="350115" time="0" location="C:\git\PalVer2\build\cache\apache\log4j\jars\log4j-1.2.5-1.2.5.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/log4j/1.2.5/lib/log4j-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="soap">
+			<revision name="2.3.1" status="integration" pubdate="20050525092325" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="9">
+				<metadata-artifact status="no" details="" size="571" time="0" location="C:\git\PalVer2\build\cache\apache\soap\ivy-2.3.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\soap\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/soap/2.3.1/ivy-soap.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="soap-2.3.1" type="jar" ext="jar" status="no" details="" size="232498" time="0" location="C:\git\PalVer2\build\cache\apache\soap\jars\soap-2.3.1-2.3.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/soap/2.3.1/lib/soap-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="activation">
+			<revision name="1.0.2" status="integration" pubdate="20050316150445" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="10">
+				<metadata-artifact status="no" details="" size="305" time="0" location="C:\git\PalVer2\build\cache\sun\activation\ivy-1.0.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\activation\ivy-1.0.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/activation/1.0.2/ivy-activation.xml"/>
+				<caller organisation="apache" name="soap" conf="default" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.3.1"/>
+				<artifacts>
+					<artifact name="activation-1.0.2" type="jar" ext="jar" status="no" details="" size="54829" time="0" location="C:\git\PalVer2\build\cache\sun\activation\jars\activation-1.0.2-1.0.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/activation/1.0.2/lib/activation-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="xerces">
+			<revision name="1.4.4" status="integration" pubdate="20050704143756" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="8">
+				<metadata-artifact status="no" details="" size="300" time="0" location="C:\git\PalVer2\build\cache\apache\xerces\ivy-1.4.4.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\apache\xerces\ivy-1.4.4.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/apache/xerces/1.4.4/ivy-xerces.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.4.4" rev-constraint-default="1.4.4" rev-constraint-dynamic="1.4.4" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="xerces-1.4.4" type="jar" ext="jar" status="no" details="" size="1812019" time="0" location="C:\git\PalVer2\build\cache\apache\xerces\jars\xerces-1.4.4-1.4.4.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/apache/xerces/1.4.4/lib/xerces-1.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="mail">
+			<revision name="1.2" status="integration" pubdate="20050316150445" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="7">
+				<metadata-artifact status="no" details="" size="289" time="0" location="C:\git\PalVer2\build\cache\sun\mail\ivy-1.2.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\mail\ivy-1.2.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/mail/1.2/ivy-mail.xml"/>
+				<caller organisation="apache" name="soap" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.3.1"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="mail-1.2" type="jar" ext="jar" status="no" details="" size="280984" time="0" location="C:\git\PalVer2\build\cache\sun\mail\jars\mail-1.2-1.2.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/mail/1.2/lib/mail-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jndi">
+			<revision name="1.2.1" status="integration" pubdate="20050316150445" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="6">
+				<metadata-artifact status="no" details="" size="293" time="0" location="C:\git\PalVer2\build\cache\sun\jndi\ivy-1.2.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\jndi\ivy-1.2.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/jndi/1.2.1/ivy-jndi.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="jndi-1.2.1" type="jar" ext="jar" status="no" details="" size="98496" time="0" location="C:\git\PalVer2\build\cache\sun\jndi\jars\jndi-1.2.1-1.2.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/jndi/1.2.1/lib/jndi-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jms">
+			<revision name="1.0.2b" status="integration" pubdate="20050316150445" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="5">
+				<metadata-artifact status="no" details="" size="293" time="0" location="C:\git\PalVer2\build\cache\sun\jms\ivy-1.0.2b.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\jms\ivy-1.0.2b.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/jms/1.0.2b/ivy-jms.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.0.2b" rev-constraint-default="1.0.2b" rev-constraint-dynamic="1.0.2b" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="jms-1.0.2b" type="jar" ext="jar" status="no" details="" size="27724" time="0" location="C:\git\PalVer2\build\cache\sun\jms\jars\jms-1.0.2b-1.0.2b.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/jms/1.0.2b/lib/jms-1.0.2b.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jaxp">
+			<revision name="1.1" status="integration" pubdate="20050316150445" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="4">
+				<metadata-artifact status="no" details="" size="289" time="0" location="C:\git\PalVer2\build\cache\sun\jaxp\ivy-1.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\jaxp\ivy-1.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/jaxp/1.1/ivy-jaxp.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="jaxp-1.1" type="jar" ext="jar" status="no" details="" size="28466" time="0" location="C:\git\PalVer2\build\cache\sun\jaxp\jars\jaxp-1.1-1.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/jaxp/1.1/lib/jaxp-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="jaas">
+			<revision name="1.0" status="integration" pubdate="20080612101215" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="3">
+				<metadata-artifact status="no" details="" size="289" time="0" location="C:\git\PalVer2\build\cache\sun\jaas\ivy-1.0.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\jaas\ivy-1.0.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/jaas/1.0/ivy-jaas.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="jaas-1.0" type="jar" ext="jar" status="no" details="" size="104359" time="0" location="C:\git\PalVer2\build\cache\sun\jaas\jars\jaas-1.0-1.0.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/jaas/1.0/lib/jaas-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="ejb">
+			<revision name="2.1" status="integration" pubdate="20080523121351" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="2">
+				<metadata-artifact status="no" details="" size="287" time="0" location="C:\git\PalVer2\build\cache\sun\ejb\ivy-2.1.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\ejb\ivy-2.1.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/ejb/2.1/ivy-ejb.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="ejb-2.1" type="jar" ext="jar" status="no" details="" size="14204" time="0" location="C:\git\PalVer2\build\cache\sun\ejb\jars\ejb-2.1-2.1.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/ejb/2.1/lib/ejb-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="sun" name="servlet">
+			<revision name="2.4" status="integration" pubdate="20071121142907" resolver="myUrlResolver" artresolver="myUrlResolver" downloaded="false" searched="false" default="false" conf="default, *" position="1">
+				<metadata-artifact status="no" details="" size="276" time="0" location="C:\git\PalVer2\build\cache\sun\servlet\ivy-2.4.xml" searched="false" original-local-location="C:\git\PalVer2\build\cache\sun\servlet\ivy-2.4.xml.original" origin-is-local="false" origin-location="http://repart.csi.it/java/sun/servlet/2.4/ivy-servlet.xml"/>
+				<caller organisation="csipiemonte" name="csi" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.4.6"/>
+				<artifacts>
+					<artifact name="servlet-2.4" type="jar" ext="jar" status="no" details="" size="97523" time="0" location="C:\git\PalVer2\build\cache\sun\servlet\jars\servlet-2.4-2.4.jar">
+						<origin-location is-local="false" location="http://repart.csi.it/java/sun/servlet/2.4/lib/servlet-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,1 @@
+ALTER TABLE idf_t_interv_trasformazione ALTER COLUMN flg_compensazione DROP DEFAULT;

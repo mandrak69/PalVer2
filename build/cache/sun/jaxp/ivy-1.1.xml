@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="sun" module="jaxp" revision="1.1" status="integration" publication="20050316150445"/>
+    
+    <publications>
+	
+        <artifact name="jaxp-1.1" type="jar"/>
+	
+    </publications>
+
+</ivy-module>

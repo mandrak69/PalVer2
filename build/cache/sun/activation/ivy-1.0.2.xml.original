@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="activation"
+        revision="1.0.2" />
+    
+    <publications>
+	
+        <artifact name="activation-1.0.2" type="jar" />
+	
+    </publications>
+
+</ivy-module>

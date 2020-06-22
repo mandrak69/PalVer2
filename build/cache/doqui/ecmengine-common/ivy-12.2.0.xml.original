@@ -1,0 +1,9 @@
+<ivy-module version="1.0">
+    <info 
+        organisation="doqui"
+        module="ecmengine-common"
+        revision="12.2.0" />
+    <publications>
+        <artifact name="ecmengine-common-12.2.0" type="jar" />
+    </publications>
+ </ivy-module>

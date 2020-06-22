@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="mail"
+        revision="1.2" />
+    
+    <publications>
+	
+        <artifact name="mail-1.2" type="jar" />
+	
+    </publications>
+
+</ivy-module>

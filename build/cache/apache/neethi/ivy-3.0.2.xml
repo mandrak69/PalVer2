@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="apache" module="neethi" revision="3.0.2" status="integration" publication="20121106172345"/>
+    
+    <publications>
+	
+        <artifact name="neethi-3.0.2" type="jar"/>
+	
+    </publications>
+
+</ivy-module>

@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="jms"
+        revision="1.0.2b" />
+    
+    <publications>
+	
+        <artifact name="jms-1.0.2b" type="jar" />
+	
+    </publications>
+
+</ivy-module>

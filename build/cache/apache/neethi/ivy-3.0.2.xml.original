@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="neethi"
+        revision="3.0.2" />
+    
+    <publications>
+	
+        <artifact name="neethi-3.0.2" type="jar" />
+	
+    </publications>
+
+</ivy-module>

@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="sun"
+        module="jaas"
+        revision="1.0" />
+    
+    <publications>
+	
+        <artifact name="jaas-1.0" type="jar" />
+	
+    </publications>
+
+</ivy-module>

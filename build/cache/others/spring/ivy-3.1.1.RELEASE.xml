@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="others" module="spring" revision="3.1.1.RELEASE" status="integration" publication="20150601093402"/>
+
+	<configurations>
+		<conf name="test" description="required for junit testing"/>
+		<conf name="default" description="default configuration"/>
+	</configurations>
+    
+    <publications>	
+<artifact name="spring-aop-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-asm-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-beans-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-context-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-context-support-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-core-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-expression-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-jdbc-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-orm-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-oxm-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-tx-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-web-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-webmvc-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-webmvc-portlet-3.1.1.RELEASE" type="jar"/>
+<artifact name="spring-struts-3.1.1.RELEASE" type="jar"/>
+
+<artifact name="spring-test-3.1.1.RELEASE" type="jar" conf="test"/>
+
+
+
+
+    </publications>
+
+</ivy-module>

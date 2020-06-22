@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="apache"
+        module="commons-lang3"
+        revision="3.1" />
+    
+    <publications>
+	
+        <artifact name="commons-lang3-3.1" type="jar" />
+	
+    </publications>
+
+</ivy-module>

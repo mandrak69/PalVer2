@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+  <info organisation="sun" module="servlet" revision="2.4" status="integration" publication="20071121142907"/>
+ 
+ <publications>
+
+  <artifact name="servlet-2.4" type="jar"/> 
+
+ </publications>
+
+</ivy-module>

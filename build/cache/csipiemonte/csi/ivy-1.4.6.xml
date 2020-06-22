@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="csipiemonte" module="csi" revision="1.4.6" status="integration" publication="20091030152614"/>
+    
+    <publications>
+	
+        <artifact name="csi-apachesoap-1.4.6" type="jar"/>
+	
+        <artifact name="csi-core-1.4.6" type="jar"/>
+	
+        <artifact name="csi-ejb-1.4.6" type="jar"/>
+		
+        <artifact name="csi-ejb-weblogic-1.4.6" type="jar"/>
+	
+        <artifact name="csi-rmi-1.4.6" type="jar"/>
+	
+        <artifact name="csi-stadapter-1.4.6" type="jar"/>
+	
+        <artifact name="csi-tools-1.4.6" type="jar"/>
+	
+    </publications>
+	
+    <dependencies>
+	
+      <dependency org="sun" name="servlet" rev="2.4">
+		<artifact name="servlet-2.4" type="jar"/>
+      </dependency>
+
+      <dependency org="sun" name="ejb" rev="2.1">
+		<artifact name="ejb-2.1" type="jar"/>
+      </dependency>
+
+      <dependency org="sun" name="jaas" rev="1.0">
+		<artifact name="jaas-1.0" type="jar"/>
+      </dependency>
+	  
+      <dependency org="sun" name="jaxp" rev="1.1">
+		<artifact name="jaxp-1.1" type="jar"/>
+      </dependency>
+
+	<dependency org="sun" name="jms" rev="1.0.2b">
+		<artifact name="jms-1.0.2b" type="jar"/>
+      </dependency>
+	  
+      <dependency org="sun" name="jndi" rev="1.2.1">
+		<artifact name="jndi-1.2.1" type="jar"/>
+      </dependency>
+	   
+	<dependency org="sun" name="mail" rev="1.2">
+	     <artifact name="mail-1.2" type="jar"/>
+	</dependency>
+
+	<dependency org="apache" name="xerces" rev="1.4.4">
+	  <artifact name="xerces-1.4.4" type="jar"/>
+	</dependency>
+		
+	<dependency org="apache" name="soap" rev="2.3.1">
+		 <artifact name="soap-2.3.1" type="jar"/>
+	</dependency>
+
+	<dependency org="apache" name="log4j" rev="1.2.5">
+		<artifact name="log4j-1.2.5" type="jar"/>
+	</dependency>
+
+	<dependency org="sun" name="ejb" rev="2.1">
+		<artifact name="ejb-2.1" type="jar"/>
+	</dependency>	
+	
+      <dependency org="apache" name="commons-httpclient" rev="2.0.2"/>
+      <dependency org="apache" name="commons-logging" rev="1.0.2"/>
+      <dependency org="csipiemonte" name="weblogic-client" rev="3.0.0"/>
+
+ </dependencies>
+</ivy-module>

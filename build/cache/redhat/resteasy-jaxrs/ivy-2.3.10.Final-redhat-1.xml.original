@@ -1,0 +1,14 @@
+<ivy-module version="1.0">
+
+    <info 
+        organisation="redhat"
+        module="resteasy-jaxrs"
+        revision="2.3.10.Final-redhat-1" />
+    
+    <publications>
+	
+        <artifact name="resteasy-jaxrs-2.3.10.Final-redhat-1" type="jar" />
+		
+    </publications>
+
+</ivy-module>

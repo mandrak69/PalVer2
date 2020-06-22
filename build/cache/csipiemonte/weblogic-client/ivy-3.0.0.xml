@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0">
+
+    <info organisation="csipiemonte" module="weblogic-client" revision="3.0.0" status="integration" publication="20080428152220"/>
+    
+    <publications>
+	
+	  <artifact name="weblogic-client-3.0.0" type="jar"/>
+	  
+    </publications>
+
+  
+</ivy-module>
